@@ -1,0 +1,19 @@
+body {
+    overflow-y: hidden;
+}
+
+#root {
+    background-color: #E8E4D9;
+    height: calc(100vh - 71px);
+    width: 100%;
+    font-family: "Futura Book";
+}
+
+#navbar {
+    height: 71px;
+}
+
+@font-face {
+    font-family: "Futura Book";
+    src: url("Fonts/Futura/Futura Book font.ttf");
+}

@@ -1,0 +1,6 @@
+#homepage {
+    width: auto;
+    height: calc(100vh - 71px) !important;
+    display: inline-block;
+    vertical-align: top;
+}

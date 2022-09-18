@@ -1,0 +1,11 @@
+.navigation {
+    background-color: #10222E;
+    font-family: "Futura Book";
+}
+
+#brand-logo {
+    height: 45px;
+}
+.nav-link {
+    font-size: 14px;
+}

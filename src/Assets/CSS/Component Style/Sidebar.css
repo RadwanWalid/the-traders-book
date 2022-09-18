@@ -1,0 +1,106 @@
+.ctr {
+    display: inline-flex;
+    height: calc(100vh - 71px) !important;
+}
+
+#sidebar {
+    color: #10222E;
+    width: 360px;
+    display: inline-block;
+    text-indent: 15px;
+    vertical-align: top;
+    background-color: #E8E4D9;
+    transition: width 0.5s;
+    border-right: 0px solid #10222E;
+    box-shadow: 0px 0px 50px 0px rgba(16,34,46,0.7), inset -25px 0px 20px -25px rgba(16,34,46,0.7);
+    margin-right: 50px;
+}
+
+#title {
+    font-size: 2rem;
+    display: inline-block;
+    width: 0px;
+    position: relative;
+    transition: left 0.5s;
+}
+
+#T-tail {
+    width: 0.17rem;
+    height: 70vh;
+    background-color: #10222E;
+    position: absolute;
+    display: flex;
+    top: 80px;
+    vertical-align: top;
+    transition: left 0.5s;
+}
+
+#sub-title {
+    margin-left: 20px;
+    position: absolute;
+    transition: left 0.5s;
+}
+
+.bars {
+    margin-top: 10px;
+    color: #10222E;
+    border: 0.25px solid #10222E;
+    border-color: #10222E;
+    border-radius: 4px;
+    display: flex;
+    transform: scale(1.5);
+    width: 29px;
+    height: 23px;
+    padding-left: 0.39rem;
+    padding-top: 2.5px;
+    float: right;
+    position: relative;
+    right: 25px;
+    transition: transform 0.2s, color 0.2s, right 5s;
+}
+
+.bars:hover {
+    cursor: pointer;
+    transform: scale(1.8);
+    transition: transform 0.5s, color 0.2s, border-color 0.2s;
+    color: #96918C;
+    border-color: #96918C;
+}
+
+.chptr-link {
+    text-decoration: none;
+    width: fit-content;
+    height: 19.2px;
+    display: block;
+    margin-right: 20px;
+    transform: scale(1);
+    transition: transform 0.5s;
+    margin-bottom: 16px;
+    position: relative;
+    right: 215px;
+}
+
+.chptr-link:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    color: #10222E;
+}
+
+.chptr-title {
+    width: 200px !important;
+    color: #10222E;
+    margin-left: 25px;
+    width: 280px;
+    position: absolute;
+    transition: left 0.5s;
+}
+
+.chptr-num {
+    width: 50px !important;
+    text-align: left;
+    margin-right: 0px;
+    display: inline;
+    color: #10222E;
+    position: absolute;
+    transition: left 0.5s;
+}
